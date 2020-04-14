@@ -62,7 +62,7 @@ body {
   text-transform: uppercase;
 
   backface-visibility: hidden;
-  margin-botton: 60px;
+  margin-bottom: 60px;
 }
 
 .heading-primary-main {
@@ -71,7 +71,7 @@ body {
   font-weight: 400;
   letter-spacing: 35px;
 
-  animation-name: maveInLeft;
+  animation-name: moveInLeft;
   animation-duration: 1s;
   animation-timing-function: ease-in;
 }
@@ -148,13 +148,13 @@ body {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.233);
 }
 
-.btnAnimated {
+.btn-animated {
   animation: moveInDown 1s ease-in;
   animation-delay: 1s;
   animation-fill-mode: backwards;
 }
 
-.btnWhite {
+.btn-white {
   background-color: #fff;
   color: #777;
 }
@@ -172,7 +172,7 @@ body {
   transition: all .4s;
 }
 
-.btnWhite::after {
+.btn-white::after {
   background-color: #fff;
 }
 
