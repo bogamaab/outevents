@@ -4,7 +4,7 @@
   "description": "Landing page for outevents",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/bogamaab/outevents#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.10",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
     "node-sass": "^4.14.1"
   }
 }
